@@ -1,0 +1,35 @@
+@import 'responsive';
+html {
+    font-size: 10px;
+    @include large-1199 {
+        font-size: 8px;
+    }
+    @include small-767 {
+        font-size: 7px;
+    }
+}
+
+a {
+    text-decoration-line: none !important;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+$text-p :#666;
+// @import 'variable';
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import 'header';
+@import 'contact-us';
+@import 'buttons-ctm';
+@import 'fuel-type.scss';
+@media (min-width:1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}

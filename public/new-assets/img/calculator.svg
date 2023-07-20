@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#344bfc"/>
+      <stop offset="1" stop-color="#1f77f0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_201" data-name="Group 201" transform="translate(-119 -7)">
+    <circle id="Ellipse_28" data-name="Ellipse 28" cx="12" cy="12" r="12" transform="translate(119 7)" fill="url(#linear-gradient)"/>
+    <path id="Icon_awesome-calculator" data-name="Icon awesome-calculator" d="M9,0H1.08A1.107,1.107,0,0,0,0,1.08v9.361a1.107,1.107,0,0,0,1.08,1.08H9a1.107,1.107,0,0,0,1.08-1.08V1.08A1.107,1.107,0,0,0,9,0ZM2.88,9.793a.31.31,0,0,1-.288.288H1.728a.31.31,0,0,1-.288-.288V8.929a.31.31,0,0,1,.288-.288h.864a.31.31,0,0,1,.288.288Zm0-2.88a.31.31,0,0,1-.288.288H1.728a.31.31,0,0,1-.288-.288V6.049a.31.31,0,0,1,.288-.288h.864a.31.31,0,0,1,.288.288Zm2.88,2.88a.31.31,0,0,1-.288.288H4.609a.31.31,0,0,1-.288-.288V8.929a.31.31,0,0,1,.288-.288h.864a.31.31,0,0,1,.288.288Zm0-2.88a.31.31,0,0,1-.288.288H4.609a.31.31,0,0,1-.288-.288V6.049a.31.31,0,0,1,.288-.288h.864a.31.31,0,0,1,.288.288Zm2.88,2.88a.31.31,0,0,1-.288.288H7.489A.31.31,0,0,1,7.2,9.793V6.049a.31.31,0,0,1,.288-.288h.864a.31.31,0,0,1,.288.288V9.793Zm0-5.761a.31.31,0,0,1-.288.288H1.728a.31.31,0,0,1-.288-.288v-2.3a.31.31,0,0,1,.288-.288H8.353a.31.31,0,0,1,.288.288Z" transform="translate(125.959 13.239)" fill="#fff"/>
+  </g>
+</svg>

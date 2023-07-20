@@ -1,0 +1,372 @@
+.top-main-all {
+    @include m-575 {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.header-us {
+    background: #fff;
+    padding: 1.8rem 0;
+    box-shadow: 0px 10px 30px #00000012;
+    position: relative;
+    .logo {
+        padding-top: 0px;
+        width: 66px;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.dropdown-menu.show {
+    display: block;
+    padding: 0px !important;
+    overflow: hidden;
+    margin: 0px !important;
+    .nav-item {
+        .dropdown-item {
+            font-weight: 400;
+            font-size: 1.4rem;
+            transition: all ease-in-out 0.5s;
+            &:hover {
+                color: #fff;
+                // background: $danger;
+            }
+        }
+    }
+}
+
+.navbar.navbar-expand-lg {
+    width: 100%;
+    margin-top: 0px;
+    z-index: 9999;
+    @include m-575 {}
+    .navbar-toggler {
+        padding: 10px;
+        font-size: 1.25rem;
+        color: #fff;
+        line-height: inherit;
+        background-color: #3147EF;
+        border: 1px solid #3147EF;
+        /* border-radius: 0.25rem; */
+        @include medium-991 {
+            position: absolute;
+            right: 0px;
+            top: -19px;
+        }
+        @include m-575 {
+            // position: absolute;
+            // right: 0px;
+            top: -22px !important;
+        }
+        @include m-575 {
+            // position: absolute;
+            // right: 0px;
+            top: -26px !important;
+        }
+    }
+    .nav-link {
+        color: #19163D;
+        opacity: 65%;
+        transition: ease-in-out 0.4s;
+        transition-timing-function: ease-in-out;
+        -webkit-transition: ease-in-out 0.4s;
+        font-size: 1.4rem;
+        text-transform: capitalize !important;
+        padding: 0rem 0px 0 0;
+        font-weight: 700;
+        line-height: 17px;
+        @include medium-991 {
+            color: #fff;
+            padding: 0.5rem 0px 0.5rem 0;
+        }
+        &:hover {
+            color: #3147EF;
+            opacity: 1;
+        }
+    }
+    .nav-item {
+        padding: 0rem 4.8rem 0rem 0;
+        text-align: center;
+        @include medium-991 {
+            padding: 0rem 0rem 0rem 0;
+        }
+    }
+    .nav-item:last-child {
+        padding: 0rem 0rem 0rem 0;
+    }
+    .nav-link.active {
+        border-radius: 50px;
+        text-align: center;
+        color: #3147EF;
+        opacity: 1;
+        @include medium-991 {
+            color: #fff;
+        }
+    }
+}
+
+.dropdown-toggle::after {
+    display: none;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.tittle-p-us.email {
+    margin-left: 30px;
+    @include m-575 {
+        margin-left: 0px;
+        display: inline-flex;
+        margin-top: 10px;
+        align-items: center;
+    }
+    @include medium-991 {
+        margin-left: 0px;
+    }
+}
+
+.main-nav-and.sub-nav {
+    // margin-left: 30px;
+    // position: relative;
+    // width:90%;
+    @include m-575 {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .navbar {
+        padding: 0rem 0px !important;
+        @include m-575 {}
+    }
+}
+
+.social-icons-nav {
+    position: absolute;
+    right: 180px;
+    display: flex;
+    width: 45px;
+    justify-content: space-between;
+    @include m-575 {
+        display: none;
+    }
+    @include medium-991 {
+        display: none;
+    }
+    a {
+        &:hover {
+            color: $red;
+            transition: ease-in 0.3s;
+        }
+    }
+}
+
+.decciption-tittle {
+    background: rgba(46, 32, 38, 0.51);
+    border: 1px solid $primary;
+    padding: 50px;
+    text-align: center;
+    width: 847px;
+    height: 269px;
+    margin: 0 auto;
+    margin-top: 140px;
+    @include m-575 {
+        margin-top: 35px;
+        padding: 20px;
+        width: 100%;
+        height: initial;
+    }
+    @include medium-991 {
+        margin-top: 80px;
+        width: 100%;
+        height: initial;
+    }
+    .tittle-head {
+        font-size: 50px;
+        color: $white;
+        @include m-575 {
+            font-size: 35px;
+        }
+    }
+    .tittle-p {
+        font-size: 15px;
+        font-weight: 300;
+        padding: 0px 20px;
+    }
+}
+
+.top-main-all-nav {
+    @include medium-991 {
+        // padding: 20px 0;
+    }
+}
+
+.nav-bar-adjustment {
+    @include medium-991 {
+        position: relative;
+        width: 100%;
+    }
+}
+
+div#collapsibleNavbar {
+    @include medium-991 {
+        position: absolute;
+        width: 300px;
+        right: 0px;
+        top: 18px;
+        background: #333;
+        padding: 10px 0;
+    }
+    @include m-425 {
+        width: 395px;
+    }
+    @include m-414 {
+        width: 384px;
+    }
+    @include m-375 {
+        width: 345px;
+    }
+    @include m-325 {
+        width: 290px;
+    }
+    @include m-285 {
+        width: 250px;
+    }
+}
+
+//banner
+section.banner-zxm {
+    .carousel-caption {
+        position: absolute;
+        bottom: 0px;
+        top: 30.6rem;
+        left: 0;
+        right: 0px;
+        width: 48.4rem;
+        padding: 0;
+        z-index: 10;
+        @include large-1440 {
+            left: 17%;
+        }
+        @include m-575 {
+            top: 24.6rem;
+            width: 90%;
+        }
+        @include m-425 {
+            width: 100%;
+            left: 0;
+        }
+        // @include m-325{
+        //   width: 75%;
+        //   left: 15%;
+        //   bottom: 46px;
+        // }
+        .inner-content-box-data {
+            // position: absolute;
+            // bottom: 12rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .tittle-one {
+            font-size: 2.6rem;
+            color: #fff;
+            margin-bottom: 1.9rem;
+            font-weight: 700;
+            line-height: 36px;
+        }
+        .disciption-p {
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: $white;
+            margin-bottom: 2rem;
+            line-height: 19px;
+            text-align: center;
+        }
+        .btn.btn-primary {
+            border-radius: 5px !important;
+            padding: 0 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem !important;
+            font-weight: 700;
+            color: #3147EF;
+            box-shadow: 0px 10px 20px #00000029;
+            text-transform: capitalize !important;
+            width: 20.1rem !important;
+            height: 5.6rem !important;
+            background: #fff;
+            transition: ease-in-out 0.2s;
+            border: none !important;
+            &:hover {
+                background: #3147EF;
+                color: #fff;
+            }
+        }
+    }
+    .banner-bg-img {
+        height: 100vh;
+        position: relative;
+        @include small-767 {
+            // height: 60rem;
+        }
+    }
+}
+
+section.banner-zxm {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+// end banner
+ul.navbar-nav.ml-2 {
+    @include medium-991 {
+        width: 230px;
+        float: left;
+        background: white;
+        margin-top: 10px;
+    }
+}
+
+.for-mr-setts {
+    margin-right: 20px;
+}
+
+.social-icon {
+    position: absolute;
+    z-index: 99;
+    bottom: 6.3rem;
+    right: 17.3rem;
+    @include large-1440 {
+        right: 10.3rem;
+    }
+    @include large-1199 {
+        right: 4rem;
+        bottom: 2.3rem;
+    }
+    .icon-links-header-icons {
+        font-size: 16px;
+        color: #000;
+        opacity: 16%;
+        margin-right: 16px;
+        @include medium-991 {
+            opacity: 1;
+        }
+        &:hover {
+            color: #3147EF;
+            opacity: 1;
+        }
+    }
+}
